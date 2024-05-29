@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplikasi Profil</string>
+    <string name="typeToSearch">Taip untuk mencari ...</string>
+    <string name="id">ID</string>
+    <string name="name">Nama</string>
+    <string name="phone">Telefon</string>
+    <string name="email">E-mel</string>
+    <string name="dateOfBirth">Tarikh Lahir</string>
+    <string name="gender">Jantina</string>
+    <string name="password">Kata Laluan</string>
+    <string name="address">Alamat</string>
+    <string name="create">Cipta</string>
+    <string name="update">Kemas kini</string>
+    <string name="delete">Padam</string>
+    <string name="okay">OK</string>
+    <string name="success">Berjaya</string>
+    <string name="error">Ralat</string>
+    <string name="account">Akaun</string>
+    <string name="home">Laman Utama</string>
+    <string name="settings">Tetapan</string>
+    <string name="profile">Profil</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="registerNow">Daftar Sekarang</string>
+    <string name="notAMemberYet">Belum menjadi ahli?</string>
+    <string name="login">Log Masuk</string>
+    <string name="feedback">Maklum balas</string>
+    <string name="registration">Pendaftaran</string>
+    <string name="language">Bahasa</string>
+    <string name="edit">Sunting</string>
+    <string name="list">Senarai</string>
+    <string name="back">Kembali</string>
+    <string name="info">Maklumat</string>
+    <string name="idErrorMsg">Hanya P1 - P9999</string>
+    <string name="nonEmptyFieldMsg">Medan tidak boleh kosong</string>
+    <string name="phoneErrorMsg">Format Telefon: 01X–XXXXXXX, di mana X boleh 0 – 9</string>
+    <string name="logo">Logo</string>
+    <string name="selectLanguage">Pilih Bahasa</string>
+    <string name="profileList">Senarai Profil</string>
+    <string name="demoApp">Aplikasi Demo</string>
+    <string name="english">Bahasa Inggeris</string>
+    <string name="chinese">Bahasa Cina</string>
+    <string name="malay">Bahasa Melayu</string>
+</resources>

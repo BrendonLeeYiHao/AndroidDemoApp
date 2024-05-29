@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/profile_fragment">
+
+    <fragment
+        android:id="@+id/profile_fragment"
+        android:name="com.example.profileapplication.app.main.profile.view.ProfileFragment"
+        android:label="profile" >
+        <action
+            android:id="@+id/action_profile_fragment_to_feedback_fragment"
+            app:destination="@id/feedback_fragment" />
+        <action
+            android:id="@+id/action_profile_fragment_to_emailFragment"
+            app:destination="@id/emailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/feedback_fragment"
+        android:name="com.example.profileapplication.app.main.feedback.view.FeedbackFragment"
+        android:label="FeedbackFragment" >
+        <action
+            android:id="@+id/action_feedback_fragment_to_emailFragment"
+            app:destination="@id/emailFragment" />
+        <action
+            android:id="@+id/action_feedback_fragment_to_profile_fragment"
+            app:destination="@id/profile_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/emailFragment"
+        android:name="com.example.profileapplication.app.main.profileList.view.ProfileListFragment"
+        android:label="EmailFragment" >
+        <action
+            android:id="@+id/action_emailFragment_to_feedback_fragment"
+            app:destination="@id/feedback_fragment" />
+        <action
+            android:id="@+id/action_emailFragment_to_profile_fragment"
+            app:destination="@id/profile_fragment" />
+    </fragment>
+
+
+</navigation>
